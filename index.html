@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D 小世界编辑器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <!-- 顶部面板 -->
+  <div class="top-panel">
+    <div class="title">🏠 3D 小世界编辑器</div>
+    <div class="save-panel">
+      <select id="slot-select">
+        <option value="0">存档 1</option>
+        <option value="1">存档 2</option>
+        <option value="2">存档 3</option>
+      </select>
+      <button id="reset-btn" class="btn">🎲 重置</button>
+      <button id="clear-btn" class="btn">🧹 清空</button>
+    </div>
+  </div>
+
+  <!-- 底部工具栏 -->
+  <div class="toolbar">
+    <div class="tool-card" data-tool="grass" title="草地">
+      <span class="emoji">🌱</span>
+      <span class="label">草地</span>
+    </div>
+    <div class="tool-card" data-tool="dirt" title="土路">
+      <span class="emoji">🟫</span>
+      <span class="label">土路</span>
+    </div>
+    <div class="tool-card" data-tool="water" title="水">
+      <span class="emoji">💧</span>
+      <span class="label">水</span>
+    </div>
+    <div class="tool-card" data-tool="stone" title="石头">
+      <span class="emoji">🪨</span>
+      <span class="label">石头</span>
+    </div>
+    <div class="tool-card" data-tool="tree" title="树">
+      <span class="emoji">🌲</span>
+      <span class="label">树</span>
+    </div>
+    <div class="tool-card" data-tool="house" title="房子">
+      <span class="emoji">🏠</span>
+      <span class="label">房子</span>
+    </div>
+    <div class="tool-card" data-tool="erase" title="擦除">
+      <span class="emoji">❌</span>
+      <span class="label">擦除</span>
+    </div>
+  </div>
+
+  <!-- 小地图 -->
+  <div class="minimap-container">
+    <canvas id="minimap" width="120" height="120"></canvas>
+  </div>
+
+  <!-- 教程提示 -->
+  <div id="tutorial" class="tutorial">
+    <div class="tutorial-content">
+      <p>🖱️ 拖拽旋转视角</p>
+      <p>📜 滚轮缩放大小</p>
+      <p>👆 点击格子放置物品</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
