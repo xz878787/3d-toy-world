@@ -91,7 +91,7 @@
 ### 本地开发运行
 ```bash
 # 1. 克隆项目
-git clone <你的仓库地址>
+git clone https://github.com/xz878787/3d-toy-world
 
 # 2. 进入项目目录
 cd 3d-toy-world
