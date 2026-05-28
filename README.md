@@ -103,5 +103,12 @@ python -m http.server 8080
 # 方式2：Node.js http-server
 npx http-server .
 
-# 4. 打开浏览器访问
-http://localhost:8080
+```
+
+
+### 最后一步：打开浏览器访问
+保持这个 CMD 窗口不要关闭（关闭服务就停了）
+
+打开你的任意浏览器（Chrome、Edge、Firefox 都可以）
+
+在地址栏输入 http://localhost:8080 并回车，项目页面就会正常加载出来，就能操作了。
