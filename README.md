@@ -112,3 +112,5 @@ npx http-server .
 打开你的任意浏览器（Chrome、Edge、Firefox 都可以）
 
 在地址栏输入 http://localhost:8080 并回车，项目页面就会正常加载出来，就能操作了。
+
+谢谢观看！
