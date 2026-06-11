@@ -1,5 +1,8 @@
 # 3D 小世界编辑器 | 3D World Simulator
 
+
+<img width="2550" height="1468" alt="image" src="https://github.com/user-attachments/assets/e022f54e-bc0e-4c95-b363-b7257c025c28" />
+
 🌍 **在线体验**：https://3d-world-simulator.netlify.app/
 
 一个轻量、开箱即用的 3D 网格世界搭建模拟器，纯浏览器运行，支持自由放置方块、本地存档、视角交互，零基础也能快速创造专属 3D 小世界，同时也是前端 3D 可视化入门级标杆项目。
